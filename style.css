@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&family=Bungee+Shade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #12232e;
+  color: #f0f0f0;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #203647;
+  height: 35rem;
+  width: 40rem;
+  border-radius: 4rem;
+  box-shadow: 0.1rem 0.1rem 5rem rgb(0, 6, 24);
+}
+
+.content {
+  position: relative;
+  top: 6.75%;
+  left: 6.35%;
+  height: 30rem;
+  width: 35rem;
+  background-color: #007cc7;
+  border-radius: 4rem;
+  box-shadow: 0.1rem 0.1rem 5rem #000d16;
+}
+
+.heading {
+  position: relative;
+  top: 5%;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: "Bungee Shade", cursive;
+  font-size: 1.25rem;
+  font-weight: 599;
+  line-height: 1.75;
+}
+
+.form {
+  position: relative;
+  top: 10%;
+  left: 7.5%;
+  height: 22rem;
+  width: 30rem;
+  background-color: #4da8da;
+  border-radius: 4rem;
+  box-shadow: 0.1rem 0.1rem 5rem #003246;
+}
+
+.password__input {
+  position: relative;
+  top: 10%;
+  left: 8.65%;
+  height: 8rem;
+  width: 25rem;
+  background-color: #cbeeff;
+  color: #151515;
+  border-radius: 4rem;
+  box-shadow: 0.1rem 0.1rem 5rem #003961;
+}
+
+.form__label {
+  position: relative;
+  top: 15%;
+  left: 15%;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-family: "Bungee Inline", cursive;
+  font-weight: 599;
+}
+
+.password__form {
+  position: relative;
+  top: 15%;
+  left: 22%;
+}
+
+.password__result {
+  position: relative;
+  top: 20%;
+}
+
+.input {
+  height: 2.5rem;
+  width: 15rem;
+  text-align: center;
+  border: none;
+  border-radius: 4rem;
+  box-shadow: 0.1rem 0.1rem 2rem #2db9ff;
+  font-family: "Alfa Slab One", cursive;
+  text-transform: none;
+}
+
+.password__result {
+  position: relative;
+  top: 17%;
+  left: 8.65%;
+  height: 8rem;
+  width: 25rem;
+  font-family: "Bungee", cursive;
+  background-color: #cbeeff;
+  color: #151515;
+  border-radius: 4rem;
+  box-shadow: 0.1rem 0.1rem 5rem #003961;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #181818;
+}
+
+.password__strength {
+  width: 23.9rem;
+  position: relative;
+  top: 21%;
+  left: 2.5%;
+  line-height: 1.25;
+}
+
+.password__verify {
+  position: relative;
+  top: 27.5%;
+  left: 2%;
+  width: 24.75rem;
+  line-height: 1.25;
+}
+
+.result__placeholder {
+  position: relative;
+  top: 7.5%;
+  left: 5.5%;
+  width: 22.5rem;
+  line-height: 1.25;
+  font-size: 0.95rem;
+}

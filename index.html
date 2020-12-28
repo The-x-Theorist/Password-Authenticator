@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+    <title>Password Authenticator</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <h2 class="heading">get your password authenticated</h2>
+        <div class="form">
+          <div class="password__input">
+            <label for="password__form" class="form__label"
+              >Please enter a password</label
+            >
+            <form class="password__form" name="password__form">
+              <input type="text" placeholder="Password" class="input" />
+            </form>
+          </div>
+          <div class="password__result">
+            <h5 class="password__strength"></h5>
+            <h5 class="password__verify"></h5>
+            <h5 class="result__placeholder">
+              to get the best password your password length should be of at
+              least 12 charcters and it should include a number, a uppercase, a
+              lowercase and a special case charcter
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
